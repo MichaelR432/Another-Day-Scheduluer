@@ -14,9 +14,11 @@ enter in a task for the time
 When I view the time blocks for that day
 Then each time block is color-coded to 
 indicate whether it is in the past, 
-present, or future
+present, or future THEN the text for that event is saved in local storage
+WHEN I refresh the page
+THEN the saved events persist
 
 ### Screen Shots
-![screenshot1](/images/SS.png)
+![screenshot1](/Another-Day-Scheduluer/images/SS.png)
 
-![screenshot1](/images/SS1.png)
+![screenshot1](/Another-Day-Scheduluer/images/SS1.png)
